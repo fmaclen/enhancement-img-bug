@@ -1,2 +1,10 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script lang="ts">
+ import Logo from "$lib/Logo.svelte";
+ import logoMiamiHerald from "$lib/assets/logo-miami-herald.png";
+</script>
+
+<h1>enhancement:img bug</h1>
+
+<hr/>
+
+<Logo name="The Miami Herald" src={logoMiamiHerald} />
