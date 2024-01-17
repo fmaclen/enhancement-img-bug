@@ -5,9 +5,8 @@
 
 <enhanced:img class="logo" alt={`${name} logo`} {src} />
 
-<style lang="scss">
+<style>
 	.logo {
-		// https://kit.svelte.dev/docs/images#sveltejs-enhanced-img-intrinsic-dimensions
 		width: var(--size);
 		height: auto;
 	}
