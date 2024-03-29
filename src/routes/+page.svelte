@@ -9,7 +9,7 @@ This one fails:
 
 This one works:
 
-<!-- <enhanced:img class="logo" alt="The Miami Herald logo" src={logoMiamiHerald} /> -->
+<enhanced:img class="logo" alt="The Miami Herald logo" src={logoMiamiHerald} />
 
 <style>
 	.logo {
